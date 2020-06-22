@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="986px" height="58px" viewBox="0 0 986 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Line</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4" stroke-dasharray="6" stroke-linecap="square">
+        <g id="Homepage---desktop" transform="translate(-217.000000, -925.000000)" stroke="#1896D2">
+            <g id="Een-taxi-aanvragen" transform="translate(0.000000, 560.000000)">
+                <g id="Proces" transform="translate(216.000000, 140.000000)">
+                    <path d="M1,281.999914 L201,281.999914 L320,244 L480,226 L576,272 L668,272 L734.625173,243.964979 L801,226 L977,226 L987,226" id="Line"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
