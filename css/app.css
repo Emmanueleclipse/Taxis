@@ -1,4 +1,4 @@
-﻿/*@import
+/*@import
   'vendors/normalize';*/
 /**
  * Set up a decent box model on the root element
@@ -36,11 +36,13 @@ html {
  */
 html {
   /*font-size: 62.5%;*/
-  font-size: 100%; }
+  font-size: 100%;
+  overflow-x: hidden; }
 
 body {
   /*font-size: 1.6rem;*/
-  line-height: 1.4; }
+  line-height: 1.4;
+  overflow-x: hidden; }
 
 * {
   font-family: inherit;
@@ -378,10 +380,10 @@ a:visited {
         padding-bottom: 25px; } }
     @media (max-width: 576px) {
       .price-section .price-content {
-        font-size: 13px; }
+        font-size: 12px; }
         .price-section .price-content .col-6 {
           padding: 0 10px; } }
-    @media (max-width: 318px) {
+    @media (max-width: 330px) {
       .price-section .price-content {
         font-size: 12px; }
         .price-section .price-content .col-6 {
@@ -531,6 +533,9 @@ a:visited {
   font-size: 25px;
   transform: translateY(4px) rotate(90deg);
   padding-left: 40px; }
+
+.transport-section .address-data-content input#to-address {
+  min-width: 0; }
 
 .transport-section .calendar-content .ui-datepicker {
   display: block;
