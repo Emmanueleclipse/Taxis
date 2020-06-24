@@ -1,4 +1,4 @@
-/*@import
+﻿/*@import
   'vendors/normalize';*/
 /**
  * Set up a decent box model on the root element
@@ -267,7 +267,7 @@ a:visited {
   display: inline; }
 
 .fixed {
-  position: fixed;
+  position: sticky !important;
   right: 10%;
   top: 28px;
   width: 350px;

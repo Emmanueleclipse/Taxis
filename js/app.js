@@ -14,9 +14,9 @@ $(document).ready(function () {
         var windowTop = $(window).scrollTop();
         console.log(windowTop);
         if (windowTop > 423) {
-            $('.fixed-side').addClass("fixed");
+            $('.fixed-side >div').addClass("fixed");
         } else {
-            $('.fixed-side').removeClass("fixed");
+            $('.fixed-side >div').removeClass("fixed");
         }
     });
 
